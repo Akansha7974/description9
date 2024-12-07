@@ -13,8 +13,6 @@ body{
 main{
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(https://www.ringcentral.com/gb/en/blog/wp-content/uploads/2021/05/happy-manager-leads-a-meeting-in-the-office-scaled.jpg);
-    background-size: cover;
 }
 nav{
     display: flex;
@@ -30,25 +28,63 @@ nav .details{
 .details h3{
     color: green;
 }
-h2{
-    color: white;
-    padding-right: 50%;
-    padding-top: 10%;
-    font-size: 50px;
-    text-align: center;
-    letter-spacing: 4px;
-}
 .content{
+    height: 90.9%;
+    width: 100%;
     display: flex;
-    gap: 20px;
+}
+.left{
+    height: 100%;
+    width:60%;
+    background-image:linear-gradient(rgba(0, 0, 0,0.7), rgba(0, 0, 0,0.7)), url(https://www.ringcentral.com/gb/en/blog/wp-content/uploads/2021/05/happy-manager-leads-a-meeting-in-the-office-scaled.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.left h1{
+    line-height: 50px;
+    text-align: center;
+   padding-right: 18%;
+   padding-top: 20%;
+   font-size: 44px;
+   color: white;
+}
+.left .info{
+    display: flex;
+    padding-top: 15px;
+}
+.left .info h3{
+    padding-left:235px ;
+    padding-right: 30px;
+    color: green;
+    font-size: 16px;
+}
+.left .info h4{
     color: white;
+    font-size: 16px;
+}
+.right{
+    height: 100%;
+    width: 40%;
+    background-color: black;
+}
+.right form{
+    margin-top: 20%;
+    margin-left: 20%;
+}
+.right h5{
+    color: rgb(57, 163, 57);
+    padding-bottom: 20px;
     font-size: 18px;
 }
-.content h4{
-    padding-top: 20px;
+.right form input{
+    text-align: left;
+    width: 80%;
+    padding: 7px;
 }
-.content h3{
-    padding-top: 20px;
-    padding-left:200px ;
-    color: green;
+.right button{
+    padding: 10px 17px;
+    background-color: green;
+    color: white;
+    font-weight: 600;
+    border: none;
 }
